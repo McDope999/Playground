@@ -102,8 +102,8 @@ int main()
    Demo* device2 = new Demo();
    device1->Init(USER_DEVICENUM_C2, USER_CHANNELTYPE);
    device1->InitMyANT(USER_DEVICENUM_C2);
-   device2->Init(USER_DEVICENUM_C3, USER_CHANNELTYPE);
-   device2->InitMyANT(USER_DEVICENUM_C3);
+ //  device2->Init(USER_DEVICENUM_C3, USER_CHANNELTYPE);
+ //  device2->InitMyANT(USER_DEVICENUM_C3);
 
 	   cout << "Press any key to exit" << endl;
 	   cin >> test;
