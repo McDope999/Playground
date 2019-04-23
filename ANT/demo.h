@@ -25,7 +25,7 @@ public:
    Demo();
    virtual ~Demo();
    BOOL Init(UCHAR ucDeviceNumber_, UCHAR ucChannelType_);
-   void InitMyANT(); //my init function
+   void InitMyANT(UCHAR ucDeviceNumber); //my init function
    void Start();
    void Close();
 

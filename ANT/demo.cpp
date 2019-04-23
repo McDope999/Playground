@@ -97,6 +97,7 @@ ANT_MESSAGE stMessage;
 int main()
 {
 	//DSIDebug::Close();
+	int test = 0;
    Demo* device1 = new Demo();
    Demo* device2 = new Demo();
    device1->Init(USER_DEVICENUM_C2, USER_CHANNELTYPE);
@@ -105,10 +106,11 @@ int main()
    device2->InitMyANT(USER_DEVICENUM_C3);
 
 	   cout << "Press any key to exit" << endl;
-	   cin >> testDemo;
-		   pclDemo->Close();
-
-      delete pclDemo;
+	   cin >> test;
+		   device1->Close();
+		   device2->Close();
+      delete device1;
+	  delete device2;
    return 0;
 }
 
