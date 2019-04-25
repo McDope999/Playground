@@ -1,0 +1,19 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  libant.cpp
+  demo.cpp
+d:\engineering\praktik-playground\ant\ant-sdk_pc.3.5\demo_dll\demo.cpp(154): warning C4477: 'scanf' : format string '%u' requires an argument of type 'unsigned int *', but variadic argument 1 has type 'UCHAR *'
+  d:\engineering\praktik-playground\ant\ant-sdk_pc.3.5\demo_dll\demo.cpp(154): note: consider using '%hhu' in the format string
+d:\engineering\praktik-playground\ant\ant-sdk_pc.3.5\demo_dll\demo.cpp(157): warning C4477: 'sscanf' : format string '%u' requires an argument of type 'unsigned int *', but variadic argument 1 has type 'UCHAR *'
+  d:\engineering\praktik-playground\ant\ant-sdk_pc.3.5\demo_dll\demo.cpp(157): note: consider using '%hhu' in the format string
+d:\engineering\praktik-playground\ant\ant-sdk_pc.3.5\demo_dll\demo.cpp(154): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: see declaration of 'scanf'
+d:\engineering\praktik-playground\ant\ant-sdk_pc.3.5\demo_dll\demo.cpp(157): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+d:\engineering\praktik-playground\ant\ant-sdk_pc.3.5\demo_dll\demo.cpp(208): warning C4477: 'sscanf' : format string '%u' requires an argument of type 'unsigned int *', but variadic argument 1 has type 'UCHAR *'
+  d:\engineering\praktik-playground\ant\ant-sdk_pc.3.5\demo_dll\demo.cpp(208): note: consider using '%hhu' in the format string
+d:\engineering\praktik-playground\ant\ant-sdk_pc.3.5\demo_dll\demo.cpp(208): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+d:\engineering\praktik-playground\ant\ant-sdk_pc.3.5\demo_dll\demo.cpp(233): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+  Generating Code...
+ARM\Debug\demo.obj : fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'ARM'

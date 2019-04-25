@@ -1,0 +1,15 @@
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\Debug\ANT_NetDll_Demo.exe.config
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\Debug\ANT_NetDll_Demo.exe
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\Debug\ANT_NetDll_Demo.pdb
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\ANT_NetDll_Demo\obj\x86\Debug\ANT_NetDll_Demo.csprojAssemblyReference.cache
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\ANT_NetDll_Demo\obj\x86\Debug\DemoWindow.baml
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\ANT_NetDll_Demo\obj\x86\Debug\DemoWindow.g.cs
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\ANT_NetDll_Demo\obj\x86\Debug\App.g.cs
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\ANT_NetDll_Demo\obj\x86\Debug\ANT_NetDll_Demo_MarkupCompile.cache
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\ANT_NetDll_Demo\obj\x86\Debug\ANT_NetDll_Demo.g.resources
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\ANT_NetDll_Demo\obj\x86\Debug\ANT_NetDll_Demo.Properties.Resources.resources
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\ANT_NetDll_Demo\obj\x86\Debug\ANT_NetDll_Demo.csproj.GenerateResource.cache
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\ANT_NetDll_Demo\obj\x86\Debug\ANT_NetDll_Demo.csproj.CoreCompileInputs.cache
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\ANT_NetDll_Demo\obj\x86\Debug\ANT_NetDll_Demo.csproj.CopyComplete
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\ANT_NetDll_Demo\obj\x86\Debug\ANT_NetDll_Demo.exe
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\ANT_NetDll_Demo\obj\x86\Debug\ANT_NetDll_Demo.pdb

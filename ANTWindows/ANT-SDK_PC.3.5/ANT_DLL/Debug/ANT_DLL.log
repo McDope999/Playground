@@ -1,0 +1,5 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  ant.cpp
+ant.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\Debug\ANT_DLL.lib and object D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\Debug\ANT_DLL.exp
+  ANT_DLL.vcxproj -> D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\Debug\ANT_DLL.dll

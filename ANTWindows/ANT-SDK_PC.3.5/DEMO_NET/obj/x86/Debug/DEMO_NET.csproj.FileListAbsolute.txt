@@ -1,0 +1,8 @@
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\Debug\demo_net.exe.config
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\Debug\demo_net.exe
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\Debug\demo_net.pdb
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\DEMO_NET\obj\x86\Debug\DEMO_NET.csprojAssemblyReference.cache
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\DEMO_NET\obj\x86\Debug\DEMO_NET.csproj.CoreCompileInputs.cache
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\DEMO_NET\obj\x86\Debug\DEMO_NET.csproj.CopyComplete
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\DEMO_NET\obj\x86\Debug\demo_net.exe
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\DEMO_NET\obj\x86\Debug\demo_net.pdb

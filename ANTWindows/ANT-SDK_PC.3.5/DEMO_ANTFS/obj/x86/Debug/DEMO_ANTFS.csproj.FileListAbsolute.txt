@@ -1,0 +1,8 @@
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\Debug\Demo_ANTFS.exe.config
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\Debug\Demo_ANTFS.exe
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\Debug\Demo_ANTFS.pdb
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\DEMO_ANTFS\obj\x86\Debug\DEMO_ANTFS.csprojAssemblyReference.cache
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\DEMO_ANTFS\obj\x86\Debug\DEMO_ANTFS.csproj.CoreCompileInputs.cache
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\DEMO_ANTFS\obj\x86\Debug\DEMO_ANTFS.csproj.CopyComplete
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\DEMO_ANTFS\obj\x86\Debug\Demo_ANTFS.exe
+D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\DEMO_ANTFS\obj\x86\Debug\Demo_ANTFS.pdb

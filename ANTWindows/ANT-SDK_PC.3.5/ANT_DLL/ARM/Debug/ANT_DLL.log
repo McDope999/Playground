@@ -1,0 +1,3 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  ant.cpp
+LINK : fatal error LNK1104: cannot open file 'D:\ENGINEERING\Praktik-Playground\ANT\ANT-SDK_PC.3.5\Debug\ANT_LIB.lib'
