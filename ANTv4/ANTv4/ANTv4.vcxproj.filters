@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ANT_SDK\ant.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\antfs_client_channel.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\antfs_directory.c">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\antfs_host.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\antfs_host_channel.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\checksum.c">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\crc.c">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_ant_device.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_ant_device_polling.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_convert.c">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_debug.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_framer.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_framer_ant.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_framer_integrated_antfs_client.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_libusb_library.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_libusb_library_linux.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_libusb_library_mac.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_serial.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_serial_generic.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_serial_iokit.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_serial_libusb_linux.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_serial_libusb_mac.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_thread_posix.c">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_timer.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\dsi_vcp_si.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\iokit_device.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\iokit_device_handle.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\iokit_device_list.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\iokit_interface.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\iokit_transfer.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\macros.c">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\usb_device.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\usb_device_handle_iokit.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\usb_device_handle_libusb_linux.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\usb_device_handle_libusb_mac.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\usb_device_handle_linux.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\usb_device_handle_mac.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\usb_device_handle_si_iokit.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\usb_device_handle_vcp.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\usb_device_iokit.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\usb_device_libusb_linux.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\usb_device_libusb_mac.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANT_SDK\usb_device_vcp.cpp">
+      <Filter>ANT_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ANTCadence.cpp">
+      <Filter>myANT</Filter>
+    </ClCompile>
+    <ClCompile Include="ANTHeartrate.cpp">
+      <Filter>myANT</Filter>
+    </ClCompile>
+    <ClCompile Include="ANTMaster.cpp">
+      <Filter>myANT</Filter>
+    </ClCompile>
+    <ClCompile Include="ANTSensor.cpp">
+      <Filter>myANT</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrentTime.cpp">
+      <Filter>serialTransciever</Filter>
+    </ClCompile>
+    <ClCompile Include="mySerialClass.cpp">
+      <Filter>serialTransciever</Filter>
+    </ClCompile>
+    <ClCompile Include="myStringFunc.cpp">
+      <Filter>serialTransciever</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ANT_SDK">
+      <UniqueIdentifier>{4dd95b0a-6d7d-4baf-a526-1a7981ae4fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="myANT">
+      <UniqueIdentifier>{99eb9ab7-3fe7-43fd-b657-4937b811161f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="serialTransciever">
+      <UniqueIdentifier>{56c9b80d-694a-442b-88ea-56d44b8f09a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ANT_SDK\ant.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\antdefines.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\antfs_client_channel.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\antfs_client_interface.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\antfs_directory.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\antfs_host.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\antfs_host_channel.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\antfs_host_interface.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\antfs_interface.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\antfsmessage.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\antmessage.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\build_version.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\checksum.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\config.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\crc.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\defines.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_ant_device.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_ant_device_polling.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_ant_message_processor.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_convert.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\DSI_CP210xManufacturingDLL_3_1.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_debug.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_framer.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_framer_ant.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_libusb_library.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_libusb_library_linux.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_libusb_library_mac.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_response_queue.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_serial.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_serial_callback.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_serial_generic.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_serial_iokit.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_serial_libusb_linux.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_serial_libusb_mac.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\DSI_SiUSBXp_3_1.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_thread.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_timer.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_ts_queue.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\dsi_vcp_si.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\iokit_device.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\iokit_device_handle.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\iokit_device_list.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\iokit_interface.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\iokit_transfer.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\iokit_types.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\libusb.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\macros.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\types.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\usb_device.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\usb_device_handle.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\usb_device_handle_iokit.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\usb_device_handle_libusb_linux.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\usb_device_handle_libusb_mac.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\usb_device_handle_si_iokit.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\usb_device_handle_vcp.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\usb_device_iokit.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\usb_device_libusb_linux.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\usb_device_libusb_mac.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\usb_device_list.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\usb_device_list_template.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\usb_device_vcp.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\usb_standard_types.hpp">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANT_SDK\version.h">
+      <Filter>ANT_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ANTCadence.h">
+      <Filter>myANT</Filter>
+    </ClInclude>
+    <ClInclude Include="ANTHeartrate.h">
+      <Filter>myANT</Filter>
+    </ClInclude>
+    <ClInclude Include="ANTMaster.h">
+      <Filter>myANT</Filter>
+    </ClInclude>
+    <ClInclude Include="ANTSensor.h">
+      <Filter>myANT</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrentTime.h">
+      <Filter>serialTransciever</Filter>
+    </ClInclude>
+    <ClInclude Include="mySerialClass.h">
+      <Filter>serialTransciever</Filter>
+    </ClInclude>
+    <ClInclude Include="myStringFunc.h">
+      <Filter>serialTransciever</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,100 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.1.33'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  ANTMaster.cpp
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANT_SDK\dsi_thread.h(17): warning : "_GNU_SOURCE" redefined
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANT_SDK\dsi_thread.h(17): warning :     #define _GNU_SOURCE
+<command-line> : message : this is the location of the previous definition
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANT_SDK\usb_device_list_template.hpp(40,1): warning : "/*" within comment [-Wcomment]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANT_SDK\usb_device_list_template.hpp(40,1): warning :  /*
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANT_SDK\usb_device_list_template.hpp(72,7): warning : "/*" within comment [-Wcomment]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANT_SDK\usb_device_list_template.hpp(72,7): warning :        /*
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.h(80,25): warning : converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.h(80,25): warning :   int deviceNumberBuf_ = NULL;
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.h(80,25): warning :                          ^~~~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.h(81,23): warning : converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.h(81,23): warning :   int deviceTypeBuf_ = NULL;
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.h(81,23): warning :                        ^~~~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(225,20): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(225,20): warning :   for (int i = 0; i < antSensors_.size(); i++) {
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(225,20): warning :                   ~~^~~~~~~~~~~~~~~~~~~~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(231,77): warning : conversion to ‘UCHAR {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(231,77): warning :    bStatus = pclMessageObject->AssignChannel(antSensors_[i]->getChannelNumber(), USER_CHANNELTYPE, USER_NETWORK_NUM, MESSAGE_TIMEOUT);
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(231,77): warning :                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(240,76): warning : conversion to ‘UCHAR {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(240,76): warning :    bStatus = pclMessageObject->SetChannelID(antSensors_[i]->getChannelNumber(), antSensors_[i]->getDeviceNumber(), antSensors_[i]->getDeviceType(), USER_TRANSTYPE, MESSAGE_TIMEOUT);
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(240,76): warning :                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(240,111): warning : conversion to ‘USHORT {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(240,111): warning :    bStatus = pclMessageObject->SetChannelID(antSensors_[i]->getChannelNumber(), antSensors_[i]->getDeviceNumber(), antSensors_[i]->getDeviceType(), USER_TRANSTYPE, MESSAGE_TIMEOUT);
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(240,111): warning :                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(240,144): warning : conversion to ‘UCHAR {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(240,144): warning :    bStatus = pclMessageObject->SetChannelID(antSensors_[i]->getChannelNumber(), antSensors_[i]->getDeviceNumber(), antSensors_[i]->getDeviceType(), USER_TRANSTYPE, MESSAGE_TIMEOUT);
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(240,144): warning :                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(252,80): warning : conversion to ‘UCHAR {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(252,80): warning :    bStatus = pclMessageObject->SetChannelPeriod(antSensors_[i]->getChannelNumber(), antSensors_[i]->getChannelPeriod(), MESSAGE_TIMEOUT);
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(252,80): warning :                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(252,116): warning : conversion to ‘USHORT {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(252,116): warning :    bStatus = pclMessageObject->SetChannelPeriod(antSensors_[i]->getChannelNumber(), antSensors_[i]->getChannelPeriod(), MESSAGE_TIMEOUT);
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(252,116): warning :                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(262,85): warning : conversion to ‘UCHAR {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(262,85): warning :    bStatus = pclMessageObject->SetChannelRFFrequency(antSensors_[i]->getChannelNumber(), USER_RADIOFREQ, MESSAGE_TIMEOUT);
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(262,85): warning :                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(272,75): warning : conversion to ‘UCHAR {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(272,75): warning :    bStatus = pclMessageObject->OpenChannel(antSensors_[i]->getChannelNumber(), MESSAGE_TIMEOUT);
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(272,75): warning :                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(352,76): warning : conversion to ‘USHORT {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(352,76): warning :      USHORT usDeviceNumber = stMessage.aucData[MESSAGE_BUFFER_DATA11_INDEX] | (stMessage.aucData[MESSAGE_BUFFER_DATA12_INDEX] << 8);
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(352,76): warning :                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(354,11): warning : unused variable ‘ucTransmissionType’ [-Wunused-variable]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(354,11): warning :      UCHAR ucTransmissionType = stMessage.aucData[MESSAGE_BUFFER_DATA14_INDEX];
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(354,11): warning :            ^~~~~~~~~~~~~~~~~~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(388,73): warning : conversion to ‘USHORT {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(388,73): warning :    USHORT usDeviceNumber = stMessage.aucData[MESSAGE_BUFFER_DATA2_INDEX] | (stMessage.aucData[MESSAGE_BUFFER_DATA3_INDEX] << 8);
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(388,73): warning :                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(388,10): warning : unused variable ‘usDeviceNumber’ [-Wunused-variable]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(388,10): warning :    USHORT usDeviceNumber = stMessage.aucData[MESSAGE_BUFFER_DATA2_INDEX] | (stMessage.aucData[MESSAGE_BUFFER_DATA3_INDEX] << 8);
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(388,10): warning :           ^~~~~~~~~~~~~~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(389,9): warning : unused variable ‘ucDeviceType’ [-Wunused-variable]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(389,9): warning :    UCHAR ucDeviceType = stMessage.aucData[MESSAGE_BUFFER_DATA4_INDEX];
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(389,9): warning :          ^~~~~~~~~~~~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(390,9): warning : unused variable ‘ucTransmissionType’ [-Wunused-variable]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(390,9): warning :    UCHAR ucTransmissionType = stMessage.aucData[MESSAGE_BUFFER_DATA5_INDEX];
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(390,9): warning :          ^~~~~~~~~~~~~~~~~~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(440,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(440,22): warning :     for (int i = 0; i < antSensors_.size(); i++) {
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(440,22): warning :                     ~~^~~~~~~~~~~~~~~~~~~~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(330,7): warning : unused variable ‘bStatus’ [-Wunused-variable]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(330,7): warning :   BOOL bStatus;
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(330,7): warning :        ^~~~~~~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(481,20): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(481,20): warning :   for (int i = 0; i < antSensors_.size(); i++) {
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(481,20): warning :                   ~~^~~~~~~~~~~~~~~~~~~~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(523,69): warning : conversion to ‘UCHAR {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(523,69): warning :   status = pclMessageObject->CloseChannel(antSensor->getChannelNumber(), MESSAGE_TIMEOUT);
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(523,69): warning :                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(532,68): warning : conversion to ‘UCHAR {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(532,68): warning :   status = pclMessageObject->OpenChannel(antSensor->getChannelNumber(), MESSAGE_TIMEOUT);
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTMaster.cpp(532,68): warning :                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+  ANTSensor.cpp
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(76,48): warning : conversion to ‘int’ from ‘uint64_t {aka long long unsigned int}’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(76,48): warning :   timeStampMeas_ = currentTime_->getMilliSeconds();
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(76,48): warning :                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(86,41): warning : conversion to ‘int’ from ‘uint64_t {aka long long unsigned int}’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(86,41): warning :   return(currentTime_->getMilliSeconds() - getTimeStampMeas());
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(86,41): warning :         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(111,28): warning : conversion to ‘float’ from ‘int’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(111,28): warning :   float revDiff = revCount_ - revBuf_;
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(111,28): warning :                   ~~~~~~~~~~^~~~~~~~~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(125,29): warning : conversion to ‘float’ from ‘int’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(125,29): warning :   float timeDiff = measTime_ - timeBuf_;
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(125,29): warning :                    ~~~~~~~~~~^~~~~~~~~~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(155,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(155,27): warning :   measTime_ = ANTdataByte3 | (ANTdataByte4 << 8); //Making uint16_t of two chars
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(155,27): warning :               ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(160,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(160,27): warning :   revCount_ = ANTdataByte5 | (ANTdataByte6 << 8); //Making uint16_t of two chars
+E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\ANTSensor.cpp(160,27): warning :               ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+  Linking objects
+  ANTv4.vcxproj -> E:\Tobias\ANTProject\ANTv4\ANTv4\ANTv4\bin\ARM\Debug\ANTv4.out

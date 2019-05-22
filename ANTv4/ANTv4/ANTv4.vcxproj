@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{bdbd8db4-04e6-4520-80dc-137dc4de7283}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>ANTv4</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{D51BCBC9-82E9-4017-911E-C93873C4EA2B}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <RemoteLdToolExe>g++ -lwiringPi -pthread -lrt -lusb-1.0</RemoteLdToolExe>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="ANTCadence.cpp" />
+    <ClCompile Include="ANTHeartrate.cpp" />
+    <ClCompile Include="ANTMaster.cpp" />
+    <ClCompile Include="ANTSensor.cpp" />
+    <ClCompile Include="ANT_SDK\ant.cpp" />
+    <ClCompile Include="ANT_SDK\antfs_client_channel.cpp" />
+    <ClCompile Include="ANT_SDK\antfs_directory.c" />
+    <ClCompile Include="ANT_SDK\antfs_host.cpp" />
+    <ClCompile Include="ANT_SDK\antfs_host_channel.cpp" />
+    <ClCompile Include="ANT_SDK\checksum.c" />
+    <ClCompile Include="ANT_SDK\crc.c" />
+    <ClCompile Include="ANT_SDK\dsi_ant_device.cpp" />
+    <ClCompile Include="ANT_SDK\dsi_ant_device_polling.cpp" />
+    <ClCompile Include="ANT_SDK\dsi_convert.c" />
+    <ClCompile Include="ANT_SDK\dsi_debug.cpp" />
+    <ClCompile Include="ANT_SDK\dsi_framer.cpp" />
+    <ClCompile Include="ANT_SDK\dsi_framer_ant.cpp" />
+    <ClCompile Include="ANT_SDK\dsi_framer_integrated_antfs_client.cpp" />
+    <ClCompile Include="ANT_SDK\dsi_libusb_library.cpp" />
+    <ClCompile Include="ANT_SDK\dsi_libusb_library_linux.cpp" />
+    <ClCompile Include="ANT_SDK\dsi_libusb_library_mac.cpp" />
+    <ClCompile Include="ANT_SDK\dsi_serial.cpp" />
+    <ClCompile Include="ANT_SDK\dsi_serial_generic.cpp" />
+    <ClCompile Include="ANT_SDK\dsi_serial_iokit.cpp" />
+    <ClCompile Include="ANT_SDK\dsi_serial_libusb_linux.cpp" />
+    <ClCompile Include="ANT_SDK\dsi_serial_libusb_mac.cpp" />
+    <ClCompile Include="ANT_SDK\dsi_thread_posix.c" />
+    <ClCompile Include="ANT_SDK\dsi_timer.cpp" />
+    <ClCompile Include="ANT_SDK\dsi_vcp_si.cpp" />
+    <ClCompile Include="ANT_SDK\iokit_device.cpp" />
+    <ClCompile Include="ANT_SDK\iokit_device_handle.cpp" />
+    <ClCompile Include="ANT_SDK\iokit_device_list.cpp" />
+    <ClCompile Include="ANT_SDK\iokit_interface.cpp" />
+    <ClCompile Include="ANT_SDK\iokit_transfer.cpp" />
+    <ClCompile Include="ANT_SDK\macros.c" />
+    <ClCompile Include="ANT_SDK\usb_device.cpp" />
+    <ClCompile Include="ANT_SDK\usb_device_handle_iokit.cpp" />
+    <ClCompile Include="ANT_SDK\usb_device_handle_libusb_linux.cpp" />
+    <ClCompile Include="ANT_SDK\usb_device_handle_libusb_mac.cpp" />
+    <ClCompile Include="ANT_SDK\usb_device_handle_linux.cpp" />
+    <ClCompile Include="ANT_SDK\usb_device_handle_mac.cpp" />
+    <ClCompile Include="ANT_SDK\usb_device_handle_si_iokit.cpp" />
+    <ClCompile Include="ANT_SDK\usb_device_handle_vcp.cpp" />
+    <ClCompile Include="ANT_SDK\usb_device_iokit.cpp" />
+    <ClCompile Include="ANT_SDK\usb_device_libusb_linux.cpp" />
+    <ClCompile Include="ANT_SDK\usb_device_libusb_mac.cpp" />
+    <ClCompile Include="ANT_SDK\usb_device_vcp.cpp" />
+    <ClCompile Include="CurrentTime.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mySerialClass.cpp" />
+    <ClCompile Include="myStringFunc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ANTCadence.h" />
+    <ClInclude Include="ANTHeartrate.h" />
+    <ClInclude Include="ANTMaster.h" />
+    <ClInclude Include="ANTSensor.h" />
+    <ClInclude Include="ANT_SDK\ant.h" />
+    <ClInclude Include="ANT_SDK\antdefines.h" />
+    <ClInclude Include="ANT_SDK\antfsmessage.h" />
+    <ClInclude Include="ANT_SDK\antfs_client_channel.hpp" />
+    <ClInclude Include="ANT_SDK\antfs_client_interface.hpp" />
+    <ClInclude Include="ANT_SDK\antfs_directory.h" />
+    <ClInclude Include="ANT_SDK\antfs_host.hpp" />
+    <ClInclude Include="ANT_SDK\antfs_host_channel.hpp" />
+    <ClInclude Include="ANT_SDK\antfs_host_interface.hpp" />
+    <ClInclude Include="ANT_SDK\antfs_interface.h" />
+    <ClInclude Include="ANT_SDK\antmessage.h" />
+    <ClInclude Include="ANT_SDK\build_version.h" />
+    <ClInclude Include="ANT_SDK\checksum.h" />
+    <ClInclude Include="ANT_SDK\config.h" />
+    <ClInclude Include="ANT_SDK\crc.h" />
+    <ClInclude Include="ANT_SDK\defines.h" />
+    <ClInclude Include="ANT_SDK\dsi_ant_device.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_ant_device_polling.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_ant_message_processor.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_convert.h" />
+    <ClInclude Include="ANT_SDK\DSI_CP210xManufacturingDLL_3_1.h" />
+    <ClInclude Include="ANT_SDK\dsi_debug.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_framer.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_framer_ant.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_libusb_library.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_libusb_library_linux.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_libusb_library_mac.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_response_queue.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_serial.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_serial_callback.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_serial_generic.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_serial_iokit.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_serial_libusb_linux.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_serial_libusb_mac.hpp" />
+    <ClInclude Include="ANT_SDK\DSI_SiUSBXp_3_1.h" />
+    <ClInclude Include="ANT_SDK\dsi_thread.h" />
+    <ClInclude Include="ANT_SDK\dsi_timer.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_ts_queue.hpp" />
+    <ClInclude Include="ANT_SDK\dsi_vcp_si.hpp" />
+    <ClInclude Include="ANT_SDK\iokit_device.hpp" />
+    <ClInclude Include="ANT_SDK\iokit_device_handle.hpp" />
+    <ClInclude Include="ANT_SDK\iokit_device_list.hpp" />
+    <ClInclude Include="ANT_SDK\iokit_interface.hpp" />
+    <ClInclude Include="ANT_SDK\iokit_transfer.hpp" />
+    <ClInclude Include="ANT_SDK\iokit_types.hpp" />
+    <ClInclude Include="ANT_SDK\libusb.h" />
+    <ClInclude Include="ANT_SDK\macros.h" />
+    <ClInclude Include="ANT_SDK\types.h" />
+    <ClInclude Include="ANT_SDK\usb_device.hpp" />
+    <ClInclude Include="ANT_SDK\usb_device_handle.hpp" />
+    <ClInclude Include="ANT_SDK\usb_device_handle_iokit.hpp" />
+    <ClInclude Include="ANT_SDK\usb_device_handle_libusb_linux.hpp" />
+    <ClInclude Include="ANT_SDK\usb_device_handle_libusb_mac.hpp" />
+    <ClInclude Include="ANT_SDK\usb_device_handle_si_iokit.hpp" />
+    <ClInclude Include="ANT_SDK\usb_device_handle_vcp.hpp" />
+    <ClInclude Include="ANT_SDK\usb_device_iokit.hpp" />
+    <ClInclude Include="ANT_SDK\usb_device_libusb_linux.hpp" />
+    <ClInclude Include="ANT_SDK\usb_device_libusb_mac.hpp" />
+    <ClInclude Include="ANT_SDK\usb_device_list.hpp" />
+    <ClInclude Include="ANT_SDK\usb_device_list_template.hpp" />
+    <ClInclude Include="ANT_SDK\usb_device_vcp.hpp" />
+    <ClInclude Include="ANT_SDK\usb_standard_types.hpp" />
+    <ClInclude Include="ANT_SDK\version.h" />
+    <ClInclude Include="CurrentTime.h" />
+    <ClInclude Include="mySerialClass.h" />
+    <ClInclude Include="myStringFunc.h" />
+  </ItemGroup>
+  <ItemDefinitionGroup />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
